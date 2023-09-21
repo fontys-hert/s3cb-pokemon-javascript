@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon battle!</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <main class="battlefield">
+      <section class="battlefield__section battlefield__section--align-right">
+        <div id="enemy" class="pokemon pokemon--align-end">
+          <img class="pokemon__image" src="assets/images/bulbasaur.png" />
+          <div>
+            <div class="pokemon__status">
+              <div class="status__name">Bulbasaur ♂︎ Lv: 10</div>
+              <div class="status__health-bar">
+                <div class="health-bar__backdrop">
+                  <div
+                    class="health-bar__current-health"
+                    style="width: 100%"
+                  ></div>
+                </div>
+              </div>
+              <div class="status__health">
+                <span id="currentHealth">28</span>/<span class="maxHealth"
+                  >28</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="battlefield__section">
+        <div id="player" class="pokemon">
+          <img class="pokemon__image" src="assets/images/pikachu.png" />
+          <div>
+            <div class="pokemon__status">
+              <div class="status__name">Pikachu ♂︎ Lv: 12</div>
+              <div class="status__health-bar">
+                <div class="health-bar__backdrop">
+                  <div
+                    class="health-bar__current-health"
+                    style="width: 100%"
+                  ></div>
+                </div>
+              </div>
+              <div class="status__health">
+                <span id="currentHealth">33</span>/<span id="maxHealth"
+                  >33</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="interaction">
+          <div class="interaction__logs">What should PIKACHU do?</div>
+          <div class="interaction__moves">
+            <button id="attack">fight</button>
+            <button>bag</button>
+            <button>pokémon</button>
+            <button>run</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

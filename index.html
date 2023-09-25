@@ -41,12 +41,13 @@
               <div class="status__health-bar">
                 <div class="health-bar__backdrop">
                   <div
+                    id="enemyHpBar"
                     class="health-bar__current-health"
                     style="width: 100%"
                   ></div>
                 </div>
               </div>
-              <div class="status__health">
+              <div id="enemyHp" class="status__health">
                 <span id="currentHealth">33</span>/<span id="maxHealth"
                   >33</span
                 >
@@ -55,7 +56,7 @@
           </div>
         </div>
         <div class="interaction">
-          <div class="interaction__logs">What should PIKACHU do?</div>
+          <div id="log" class="interaction__logs">What should PIKACHU do?</div>
           <div class="interaction__moves">
             <button id="attack">fight</button>
             <button>bag</button>

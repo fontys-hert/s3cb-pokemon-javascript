@@ -10,7 +10,7 @@
   <body>
     <main class="battlefield">
       <section class="battlefield__section battlefield__section--align-right">
-        <div id="enemy" class="pokemon pokemon--align-end">
+        <div class="enemy pokemon pokemon--align-end">
           <img class="pokemon__image" src="assets/images/bulbasaur.png" />
           <div>
             <div class="pokemon__status">
@@ -23,8 +23,8 @@
                   ></div>
                 </div>
               </div>
-              <div id="enemyHp" class="status__health">
-                <span id="currentHealth">28</span>/<span id="maxHealth"
+              <div class="enemyHp status__health">
+                <span class="currentHealth">28</span>/<span class="maxHealth"
                   >28</span
                 >
               </div>
@@ -41,14 +41,13 @@
               <div class="status__health-bar">
                 <div class="health-bar__backdrop">
                   <div
-                    id="enemyHpBar"
-                    class="health-bar__current-health"
+                    class="enemyHpBar health-bar__current-health"
                     style="width: 100%"
                   ></div>
                 </div>
               </div>
-              <div id="playerHp" class="status__health">
-                <span id="currentHealth">33</span>/<span id="maxHealth"
+              <div class="playerHp status__health">
+                <span class="currentHealth">33</span>/<span class="maxHealth"
                   >33</span
                 >
               </div>
@@ -56,9 +55,9 @@
           </div>
         </div>
         <div class="interaction">
-          <div id="log" class="interaction__logs">What should PIKACHU do?</div>
+          <div class="log interaction__logs">What should PIKACHU do?</div>
           <div class="interaction__moves">
-            <button id="attack">fight</button>
+            <button class="attack">fight</button>
             <button>bag</button>
             <button>pokémon</button>
             <button>run</button>
